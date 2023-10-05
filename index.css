@@ -1,0 +1,28 @@
+.container {
+    width: 50%;
+    height: 500px;
+    border: 1px solid black;
+    margin: 0 auto;
+    overflow: scroll;
+    display: flex;
+    margin-top: 50px;
+    background-color: rgb(31, 31, 31);
+}
+.container #content {
+    flex: auto;
+}
+.container #content #cursor {
+    width: 2px;
+    height: 20px;
+    background-color: rgb(174, 175, 173);
+    display: none;
+}
+
+.container #content .letter {
+    white-space: pre;
+    color: rgb(204, 204, 204);
+}
+
+.container #content .language-keyword {
+    color: #569cd6;
+}

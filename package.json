@@ -1,0 +1,23 @@
+{
+  "name": "ide-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.2.2",
+    "vscode-languageserver": "^9.0.1",
+    "vscode-ws-jsonrpc": "^3.0.0",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.2",
+    "@types/ws": "^8.5.6",
+    "ts-node": "^10.9.1"
+  }
+}
